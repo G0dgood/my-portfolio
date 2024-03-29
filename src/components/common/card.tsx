@@ -1,7 +1,5 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import "./styles/card.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 type Props = {
 	icon: any,

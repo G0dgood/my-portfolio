@@ -7,7 +7,6 @@ import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import INFO from "../data/user";
 import myArticles from "../data/articles";
-import "./styles/readArticle.css";
 let ArticleStyle = styled.div``;
 
 const ReadArticle = () => {

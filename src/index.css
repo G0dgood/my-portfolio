@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Roboto:wght@500&display=swap");
-@import "./data/styles.css";
 
 body {
 	margin: 0;
@@ -12,3 +11,45 @@ code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;
 }
+
+
+:root {
+	/* ------- colors ------- */
+	--primary-color: #27272a;
+	--secondary-color: #65656d;
+	--tertiary-color: #acacb4;
+	--quaternary-color: #e4e4e7;
+	--link-color: #14b8a6;
+	/* ---------------------- */
+
+	/* ------- fonts ------- */
+	--primary-font: "Heebo", sans-serif;
+	--secondary-font: "Roboto", sans-serif;
+	/* --------------------- */
+}
+
+ /* --- Other CSS Files --- */
+@import url(./app.css);   
+@import url(./components/about/styles/socials.css); 
+@import url(./components/articles/style/article.css); 
+@import url(./components/common/styles/card.css); 
+@import url(./components/common/styles/footer.css); 
+@import url(./components/common/styles/logo.css); 
+@import url(./components/common/styles/navBar.css); 
+@import url(./components/homepage/styles/article.css); 
+@import url(./components/homepage/styles/works.css); 
+@import url(./components/projects/styles/allProjects.css); 
+@import url(./components/projects/styles/project.css); 
+@import url(./pages/styles/404.css); 
+@import url(./pages/styles/about.css); 
+@import url(./pages/styles/articles.css); 
+@import url(./pages/styles/contact.css); 
+@import url(./pages/styles/homepage.css); 
+@import url(./pages/styles/projects.css); 
+@import url(./pages/styles/readArticle.css); 
+@import url(./components/common/styles/card.css); 
+@import url(./components/common/styles/footer.css); 
+@import url(./components/common/styles/logo.css); 
+@import url(./components/common/styles/navBar.css); 
+ 
+ 

@@ -1,10 +1,7 @@
 import React from "react";
 import { faBriefcase, faBuilding } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import Card from "../common/card";
-
-import "./styles/works.css";
 
 const Works = () => {
   return (
