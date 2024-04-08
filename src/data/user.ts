@@ -96,9 +96,9 @@ const INFO = {
 			link: "https://foodrecipeandmenu.netlify.app/",
 		},
 		{
-			title: "Effortlessly manage employee details with this responsive Employee Form, using React and React Bootstrap Accordion.",
+			title: "Responsive Employee Form.",
 			description:
-				"Responsive Employee Form.",
+				"Effortlessly manage employee details with this responsive Employee Form, using React and React Bootstrap Accordion.",
    svg:faReact,
 			linkText: "View Project",
 			link: "https://richforth-employee-form.vercel.app/",
