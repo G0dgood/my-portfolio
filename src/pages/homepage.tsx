@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-
+import video from "../Asset/Video/eezy-video.mp4"
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -15,13 +15,17 @@ import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
 import INFO from "../data/user";
 import SEO from "../data/seo";
-
+import ReactPlayer from "react-player";
 
 const Homepage = () => {
+	const [next, setNext] = useState(false);
 	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
-
+	const onClick = (e: { preventDefault: () => void; }) => {
+		e.preventDefault();
+		setNext(true);
+	};
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
@@ -167,6 +171,9 @@ const Homepage = () => {
 
 						<div className="homepage-after-title">
 							<div className="homepage-articles">
+								<div className="homepage-article-date">|&nbsp;&nbsp;&nbsp;5-5-2024</div>
+								<div className="homepage-article-title">EezyHealth Patient App</div>
+								<div className="homepage-article-description">Connecting Doctors with Patient seamlessly</div>
 								{/* {myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
@@ -181,6 +188,36 @@ const Homepage = () => {
 										/>
 									</div>
 								))} */}
+								{/* <div className="homepage-article-content">
+
+
+								</div> */}
+								<div
+									className="homepage-article"
+								>
+									{next ? (
+										<div className="player-wrapper">
+											<ReactPlayer
+												className="react-player"
+												// url='https://youtu.be/UL_Gc5CpPzc'
+												url={video}
+												width="100%"
+												// height="380px"
+												controls
+											/>
+										</div>
+									) : (
+										<div className="our-company-img"  >
+											{/* @ts-ignore  */}
+											<a href
+												id="play-video"
+												onClick={onClick}
+												class="video-play-button">
+												<span></span>
+											</a>
+										</div>
+									)}
+								</div>
 							</div>
 
 							<div className="homepage-works">

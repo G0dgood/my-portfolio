@@ -46,6 +46,14 @@ const INFO = {
 			link: "https://outcess.netlify.app/",
 		},
 		{
+			title: "Portfolio",
+			description:
+				`Design samples and previews for inspiration & personal use only. .`,
+			svg:   "",
+			linkText: "View Project",
+			link: "https://good-portfolio.vercel.app/",
+		},
+		{
 			title: "Weather Application",
 			description:
 				`The term "weather" refers to the atmospheric conditions in a specific location at a given time. It includes factors such as temperature, humidity, wind speed and direction, precipitation (rain, snow, etc.), cloud cover, and atmospheric pressure.`,
@@ -69,15 +77,21 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://task-leads.vercel.app/",
 		},
-
-
-		{
+ {
 			title: "Task Flow",
 			description:
 				"A UI task management Application with drag and drop.",
    svg:"",
 			linkText: "View Project",
 			link: "https://task-flow-vert.vercel.app/",
+		},
+		{
+			title: "Loan Application",
+			description:
+				"A Sample Loan Application.",
+   svg:faReact,
+			linkText: "View Project",
+			link: "https://client-module.netlify.app/",
 		},
 		{
 			title: "Ramos",
