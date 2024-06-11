@@ -54,6 +54,14 @@ const INFO = {
 			link: "https://good-portfolio.vercel.app/",
 		},
 		{
+			title: "Random user",
+			description:
+				`Documentation for the Random User Generator API.`,
+			svg:  faReact,
+			linkText: "View Project",
+			link: "https://codelap-omega.vercel.app/",
+		},
+		{
 			title: "Weather Application",
 			description:
 				`The term "weather" refers to the atmospheric conditions in a specific location at a given time. It includes factors such as temperature, humidity, wind speed and direction, precipitation (rain, snow, etc.), cloud cover, and atmospheric pressure.`,
