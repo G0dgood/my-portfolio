@@ -45,10 +45,18 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://outcess.netlify.app/",
 		},
+			{
+			title: "Medical Advance platform",
+			description:
+				`Design samples and previews are offered exclusively for creative inspiration and personal use.`,
+			svg:  faReact,
+			linkText: "View Project",
+			link: "https://medical-advance-platform.vercel.app/",
+		},
 		{
 			title: "Portfolio",
 			description:
-				`Design samples and previews for inspiration & personal use only. .`,
+				`Design samples and previews for inspiration & personal use only. `,
 			svg:   "",
 			linkText: "View Project",
 			link: "https://good-portfolio.vercel.app/",
